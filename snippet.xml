@@ -45,8 +45,15 @@
     <variant>
       <configItem>
         <name>latin_ety</name>
-        <shortDescription>džų</shortDescription>
+        <shortDescription>đu</shortDescription>
         <description>Interslavic (Etymological)</description>
+      </configItem>
+    </variant>
+    <variant>
+      <configItem>
+        <name>latin_ety_alt_deadkeys</name>
+        <shortDescription>đu</shortDescription>
+        <description>Interslavic (Ety., with AltGr dead keys)</description>
       </configItem>
     </variant>
   </variantList>
