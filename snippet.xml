@@ -24,13 +24,22 @@
     <variant>
       <configItem>
         <name>cyrillic</name>
+        <shortDescription>дж</shortDescription>
         <description>Interslavic (Cyrillic)</description>
       </configItem>
     </variant>
     <variant>
       <configItem>
         <name>latin</name>
+        <shortDescription>dž</shortDescription>
         <description>Interslavic (Latin)</description>
+      </configItem>
+    </variant>
+    <variant>
+      <configItem>
+        <name>latin_ety</name>
+        <shortDescription>džų</shortDescription>
+        <description>Interslavic (Etymological)</description>
       </configItem>
     </variant>
   </variantList>
