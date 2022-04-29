@@ -1,0 +1,37 @@
+<layout>
+  <configItem>
+    <name>interslavic</name>
+    <!-- Keyboard indicator for Interslavic layouts -->
+    <shortDescription>its</shortDescription>
+    <description>Interslavic</description>
+    <languageList>
+      <iso639Id>bel</iso639Id>
+      <iso639Id>bos</iso639Id>
+      <iso639Id>bul</iso639Id>
+      <iso639Id>ces</iso639Id>
+      <iso639Id>chu</iso639Id>
+      <iso639Id>hrv</iso639Id>
+      <iso639Id>mkd</iso639Id>
+      <iso639Id>pol</iso639Id>
+      <iso639Id>rus</iso639Id>
+      <iso639Id>slk</iso639Id>
+      <iso639Id>slv</iso639Id>
+      <iso639Id>srp</iso639Id>
+      <iso639Id>ukr</iso639Id>
+    </languageList>
+  </configItem>
+  <variantList>
+    <variant>
+      <configItem>
+        <name>cyrillic</name>
+        <description>Interslavic (Cyrillic)</description>
+      </configItem>
+    </variant>
+    <variant>
+      <configItem>
+        <name>latin</name>
+        <description>Interslavic (Latin)</description>
+      </configItem>
+    </variant>
+  </variantList>
+</layout>
