@@ -94,19 +94,20 @@ xkb_symbols "latin_ety" {
     include "interslavic(latin)"
     name[Group1]= "Interslavic (Etymological)";
 
-    key <AE04> {    [     4, dollar, eabovedot, Eabovedot ]   };
+    key <AE04> {    [  eogonek, Eogonek,    4,    dollar  ]   };
+    key <AE07> {    [  uogonek, Uogonek,    7, ampersand  ]   };
 
-    key <AC01> {    [     a,    A,      aring,    Aring   ]   };
-
-    key <AD03> {    [     e,    E,    eogonek,  Eogonek   ]   };
     key <AD04> {    [     r,    R,     racute,   Racute   ]   };
-    key <AD07> {    [     u,    U,    uogonek,  Uogonek   ]   };
+    key <AD10> {    [     p,    P,  eabovedot, Eabovedot  ]   };
 
     key <AC02> {    [     s,    S,     sacute,   Sacute   ]   };
     key <AC03> {    [     d,    D,    dstroke,  Dstroke   ]   };
     key <AC09> {    [     l,    L,     lacute,   Lacute   ]   };
+    key <AC10> {    [   aring,  Aring                     ]   };
 
     key <AB01> {    [     z,    Z,     zacute,   Zacute   ]   };
     key <AB03> {    [     c,    C,     cacute,   Cacute   ]   };
     key <AB06> {    [     n,    N,     nacute,   Nacute   ]   };
+
+    key <BKSL> {    [ semicolon,    colon                 ]   };
 };
