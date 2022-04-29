@@ -37,6 +37,13 @@
     </variant>
     <variant>
       <configItem>
+        <name>latin_deadkeys</name>
+        <shortDescription>dž</shortDescription>
+        <description>Interslavic (Lat., with dead keys)</description>
+      </configItem>
+    </variant>
+    <variant>
+      <configItem>
         <name>latin_ety</name>
         <shortDescription>džų</shortDescription>
         <description>Interslavic (Etymological)</description>

@@ -89,6 +89,15 @@ xkb_symbols "latin" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "latin_deadkeys" {
+
+    include "us(basic)"
+    name[Group1]= "Interslavic (Lat., with dead keys)";
+
+    key <AC10> {    [ dead_caron,    colon       ]   };
+};
+
+partial alphanumeric_keys
 xkb_symbols "latin_ety" {
 
     include "interslavic(latin)"
